@@ -64,20 +64,38 @@
                 }
             }
 
-            .languege-vi {
+            .language-vi {
                 cursor: pointer;
+                opacity: 0.2;
 
-                &:active {
-                    color: orange;
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: orange;
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.8;
                 }
             }
 
-            .languege-en {
+            .language-en {
                 margin: 0 10px;
                 cursor: pointer;
+                opacity: 0.2;
 
-                &:active {
-                    color: blue;
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: blue;
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.8;
                 }
             }
         }
